@@ -1,0 +1,9 @@
+{% sw_extends "@Storefront/storefront/component/buy-widget/buy-widget.html.twig" %}
+
+{% block buy_widget_rich_snippets_brand %}
+    {% if product.manufacturer %}
+        <div itemprop="brand" itemtype="https://schema.org/Brand" itemscope>
+            <meta itemprop="name" content="{{ product.manufacturer.translated.name }}" />
+        </div>
+    {% endif %}
+{% endblock %}

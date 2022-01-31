@@ -1,0 +1,32 @@
+{
+  "name": "tinect/brand-seo-fix",
+  "description": "This plugin fixes the problem fix brand schema",
+  "type": "shopware-platform-plugin",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "tinect"
+    }
+  ],
+  "require": {
+    "shopware/core": "~6.4"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Tinect\\BrandSeoFix\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "Tinect\\BrandSeoFix\\TinectBrandSeoFix",
+    "copyright": "tinect",
+    "label": {
+      "de-DE": "TinectBrandSeoFix",
+      "en-GB": "TinectBrandSeoFix"
+    },
+    "description": {
+      "de-DE": "This plugin fixes the problem fix brand schema",
+      "en-GB": "This plugin fixes the problem fix brand schema"
+    }
+  }
+}

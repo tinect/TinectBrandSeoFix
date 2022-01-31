@@ -1,0 +1,7 @@
+{% sw_extends "@Storefront/storefront/component/product/card/meta.html.twig" %}
+
+{% block component_product_box_rich_snippets_brand %}
+    <div itemprop="brand" itemtype="https://schema.org/Brand" itemscope>
+        <meta itemprop="name" content="{{ product.manufacturer.translated.name }}" />
+    </div>
+{% endblock %}
