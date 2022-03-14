@@ -2,14 +2,14 @@
   "name": "tinect/brand-seo-fix",
   "description": "This plugin fixes the problem fix brand schema",
   "type": "shopware-platform-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     {
       "name": "tinect"
     }
   ],
   "require": {
-    "shopware/core": "~6.4"
+    "shopware/core": ">=6.4.0 <6.4.9"
   },
   "license": "MIT",
   "autoload": {
